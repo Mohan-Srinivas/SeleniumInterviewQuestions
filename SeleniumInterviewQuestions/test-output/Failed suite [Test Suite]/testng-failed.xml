@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Failed suite [Test Suite]]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="2" parallel="methods" name="Test Cases(failed)(failed)" verbose="2">
+    <classes>
+      <class name="ReRunFailedTestCases.SimpleTestCase">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- ReRunFailedTestCases.SimpleTestCase -->
+    </classes>
+  </test> <!-- Test Cases(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Test Suite]] -->
